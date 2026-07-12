@@ -5,6 +5,7 @@
   "main": "./lib/scoped-property-store",
   "scripts": {
     "prepublish": "grunt clean lint coffee",
+    "prepare": "grunt clean coffee",
     "test": "grunt test"
   },
   "repository": {
@@ -22,10 +23,10 @@
   ],
   "dependencies": {
     "atom-slick": "^2",
-    "event-kit": "^1.0.0",
-    "grim": "^1.2.1",
+    "event-kit": "^2.5.3",
+    "grim": "^2.0.3",
     "key-path-helpers": "^0.1.0",
-    "underscore-plus": "^1.6.3"
+    "underscore-plus": "npm:@pulsar-edit/underscore-plus@1.8.3"
   },
   "devDependencies": {
     "coffee-script": "^1.7.0",
