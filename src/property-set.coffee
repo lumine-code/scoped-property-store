@@ -1,4 +1,4 @@
-{deepExtend} = require 'underscore-plus'
+{deepExtend} = require '@lumine-code/underscore-plus'
 {hasKeyPath, getValueAtKeyPath} = require 'key-path-helpers'
 
 module.exports =

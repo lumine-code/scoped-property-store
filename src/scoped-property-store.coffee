@@ -1,5 +1,5 @@
 slick = require 'atom-slick'
-_ = require 'underscore-plus'
+_ = require '@lumine-code/underscore-plus'
 {getValueAtKeyPath} = require 'key-path-helpers'
 {includeDeprecatedAPIs, deprecate} = require 'grim'
 {Disposable, CompositeDisposable} = require 'event-kit'
