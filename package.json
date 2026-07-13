@@ -1,26 +1,20 @@
 {
   "name": "@lumine-code/scoped-property-store",
+  "author": "lumine-code",
   "version": "1.0.0",
-  "description": "Store and retrieve properties associated with CSS selectors.",
+  "description": "Stores and retrieves properties associated with CSS selectors.",
   "main": "./lib/scoped-property-store",
   "scripts": {
     "prepublish": "grunt clean lint coffee",
     "prepare": "grunt clean coffee",
     "test": "grunt test"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lumine-code/scoped-property-store.git"
+  "repository": "https://github.com/lumine-code/scoped-property-store",
+  "bugs": "https://github.com/lumine-code/scoped-property-store/issues",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
   },
-  "bugs": {
-    "url": "https://github.com/lumine-code/scoped-property-store/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/lumine-code/scoped-property-store/raw/master/LICENSE.md"
-    }
-  ],
   "dependencies": {
     "atom-slick": "^2",
     "event-kit": "^2.5.3",

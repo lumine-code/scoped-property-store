@@ -1,7 +1,20 @@
-##### Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
 # @lumine-code/scoped-property-store
 
 Stores and retrieves properties associated with CSS selectors.
+
+## Features
+
+- **Selector matching**: associates values with element, class, attribute, descendant, and child selectors.
+- **Nested properties**: retrieves complete property sets or individual values by key path.
+- **Disposable updates**: removes groups of registered properties through Event Kit disposables.
+
+## Installation
+
+```sh
+npm install @lumine-code/scoped-property-store
+```
+
+## Usage
 
 Currently, this library only supports the combinations of the following
 elements. More could be added pretty easily.
@@ -39,3 +52,7 @@ store.get('div.foo p.baz', 'x.y') # ==> 3
 # You can also remove properties via the returned Disposable
 disposable.dispose()
 ```
+
+## Contributing
+
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub. Any feedback is welcome!
