@@ -1,5 +1,5 @@
 ##### Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
- # Scoped Property Store [![Build Status](https://travis-ci.org/atom/scoped-property-store.svg?branch=master)](https://travis-ci.org/atom/scoped-property-store)
+# @lumine-code/scoped-property-store
 
 Stores and retrieves properties associated with CSS selectors.
 
@@ -15,7 +15,7 @@ elements. More could be added pretty easily.
 Usage:
 
 ```coffee
-ScopedPropertyScore = require 'scoped-property-store'
+ScopedPropertyScore = require '@lumine-code/scoped-property-store'
 store = new ScopedPropertyScore
 
 # First associate some properties with selectors
