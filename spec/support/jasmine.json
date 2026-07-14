@@ -1,0 +1,15 @@
+{
+  "spec_dir": "spec",
+  "spec_files": [
+    "**/*[sS]pec.js"
+  ],
+  "helpers": [
+    "spec-helper.js"
+  ],
+  "requires": [],
+  "env": {
+    "forbidDuplicateNames": false,
+    "stopSpecOnExpectationFailure": false,
+    "random": true
+  }
+}

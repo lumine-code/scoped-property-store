@@ -5,10 +5,7 @@
   "description": "Stores and retrieves properties associated with CSS selectors.",
   "main": "./lib/scoped-property-store",
   "scripts": {
-    "build": "coffee --compile --output lib src",
-    "clean": "node -e \"require('node:fs').rmSync('lib', {recursive: true, force: true})\"",
-    "prepare": "npm run build",
-    "test": "npm run build && jasmine-focused --coffee --captureExceptions --forceexit spec"
+    "test": "jasmine"
   },
   "repository": "https://github.com/lumine-code/scoped-property-store",
   "bugs": "https://github.com/lumine-code/scoped-property-store/issues",
@@ -24,7 +21,6 @@
     "@lumine-code/underscore-plus": "https://github.com/lumine-code/underscore-plus.git#330ad1fe2fae4e495a5f52939d8d1d7592ce4e65"
   },
   "devDependencies": {
-    "@lumine-code/jasmine-focused": "https://github.com/lumine-code/jasmine-focused.git#6d04426bcb107dc44b148a6d48172c918326c068",
-    "coffeescript": "2.7.0"
+    "jasmine": "^6.3.0"
   }
 }
